@@ -1,0 +1,17 @@
+properties:
+  iteration_limit: 500
+policy:
+  files:
+    uspto:
+      - C:\Users\PC\Documents\PyProjects\ml-assignment-final\aiz\uspto_model.onnx
+      - C:\Users\PC\Documents\PyProjects\ml-assignment-final\aiz\uspto_templates.csv.gz
+    ringbreaker:
+      - C:\Users\PC\Documents\PyProjects\ml-assignment-final\aiz\uspto_ringbreaker_model.onnx
+      - C:\Users\PC\Documents\PyProjects\ml-assignment-final\aiz\uspto_ringbreaker_templates.csv.gz     
+filter:
+  files:
+    my_policy: C:\Users\PC\Documents\PyProjects\ml-assignment-final\aiz\x\filter_policy_random.hdf5
+    uspto: C:\Users\PC\Documents\PyProjects\ml-assignment-final\aiz\uspto_filter_model.onnx
+stock:
+  files:
+    zinc: C:\Users\PC\Documents\PyProjects\ml-assignment-final\aiz\zinc_stock_17_04_20.hdf5
